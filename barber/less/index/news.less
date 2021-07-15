@@ -1,0 +1,117 @@
+.news {
+  background-color: @backgroundwhite;
+  @media (min-width: @tablet) {
+  }
+}
+
+.news__wrapper {
+  padding: 0 20px 28px 20px;
+  @media (min-width: @tablet) {
+    padding-top: 51px;
+    padding-bottom: 35px;
+    width: 640px;
+    margin: 0 auto;
+    position: relative;
+  }
+  @media (min-width: @desktop) {
+    width: 960px;
+    padding-top: 64px;
+    padding-bottom: 42px;
+  }
+}
+
+.news__title {
+  margin: 0;
+  padding: 34px 0 11px 0;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  @media (min-width: @tablet) {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 0;
+  }
+  @media (min-width: @desktop) {
+    padding-bottom: 0;
+  }
+}
+
+.news__list {
+  @media (min-width: @tablet) {
+    display: flex;
+  }
+}
+
+.news__item {
+  display: flex;
+  border-bottom: 1px solid @border;
+  &:last-child {
+    display: none;
+  }
+  @media (min-width: @tablet) {
+    margin-right: 20px;
+    border-bottom: none;
+  }
+  @media (min-width: @desktop) {
+    &:last-child {
+      display: block;
+      display: flex;
+    }
+  }
+}
+
+.news__item:last-child {
+  border: none;
+}
+
+.news__text {
+  padding: 16px 0 18px 50px;
+  margin: 0;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: @black;
+  @media (min-width: @tablet) {
+    padding: 46px 0 0 20px;
+  }
+  @media (min-width: @desktop) {
+    padding-top: 56px;
+  }
+}
+
+.news__date {
+  padding-top: 27px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 30px;
+  color: @white;
+  background-image: url('../../img/svg/cover.svg');
+  background-repeat: no-repeat;
+  background-size: 105%;
+  background-position-y: 100%;
+  background-position-x: 50%;
+  width: 50px;
+  height: 60px;
+  @media (min-width: @tablet) {
+    align-self: center;
+  }
+}
+
+.news__day {
+  width: 50px;
+  align-self: center;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  color: @white;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
