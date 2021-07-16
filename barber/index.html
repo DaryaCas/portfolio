@@ -45,6 +45,11 @@
   <symbol id="insta" viewBox="0 0 36 36">
     <path d="M36 0H0V36H36V0ZM18 11.4C21.6456 11.4 24.6 14.3556 24.6 18C24.6 21.6432 21.6456 24.6 18 24.6C14.3556 24.6 11.4 21.6432 11.4 18C11.4 14.3556 14.3556 11.4 18 11.4ZM31.2 31.2H4.8V15H7.6308C7.356 15.9528 7.2 16.9584 7.2 18C7.2 23.964 12.0372 28.8 18 28.8C23.9664 28.8 28.8 23.964 28.8 18C28.8 16.9584 28.644 15.9528 28.3692 15H31.2V31.2ZM31.2 6.0096V9.6288V10.8C31.2 10.8 30.6636 10.7868 30.0192 10.7976V10.8H26.4C25.746 10.8 25.2 10.8 25.2 10.8V4.8H30L30.0192 4.8036C30.0192 4.8036 31.2 4.8096 31.2 4.8C31.2 4.8 31.1976 6.006 31.1976 6.0096H31.2Z"/>
   </symbol>
+<symbol id="cover" viewBox="0 0 50 60">
+<path d="M0 0H50V50L25 60L0 50V0Z"/>
+</svg>
+</symbol>
+
 </svg>
 <body class="page__body">
   <header class="page-header">
@@ -220,6 +225,9 @@
               datetime="2017-09-29">
               <b class="news__day">29</b> <span>сент</span>
             </time>
+            <svg role="img" class="news__cover" width="50" height="60">
+              <use href="#cover"></use>
+            </svg>
             <p class="news__text">Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время
               стрижки.</p>
           </a>
@@ -229,6 +237,9 @@
               datetime="2017-09-19">
               <b class="news__day">19</b> <span>сент</span>
             </time>
+            <svg role="img" class="news__cover" width="50" height="60">
+              <use href="#cover"></use>
+            </svg>
             <p class="news__text">В нашей команде пополнение, Борис «Бритва» Стригунец пополнил наши стройные ряды.<br>
               Спешите записаться!</p>
           </a>
@@ -237,7 +248,11 @@
             <time class="news__date"
               datetime="2017-09-09">
               <b class="news__day">9</b> <span>сент</span>
+              <svg  class="news__cover" width="50" height="60">
+                <use href="#cover"></use>
+              </svg>
             </time>
+
             <p class="news__text">Всё дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чём
               здесь подвох!</p>
           </a>
@@ -295,9 +310,9 @@
             <div class="reviews__item-wrapper">
               <div class="reviews__author-pic">
                 <picture>
-                  <source media="(min-width:1200px)" srcset="img/review/borodach.jpg 1x, img/review/borodach@2x.jpg 2x">
-                  <source media="(min-width:768px)" srcset="img/review/borodach-t.jpg 1x, img/review/bprpdach-t@2x.jpg 2x">
-                  <img class="reviews__author-image" src="img/review/borodach-m.jpg" srcset="img/review/borodach-m@2x.jpg 2x" width="50" height="50" alt="Фото Трэвиса Баркера">
+                  <source media="(min-width:1200px)" srcset="img/review/borodach.jpg 1x">
+                  <source media="(min-width:768px)" srcset="img/review/borodach-t.jpg">
+                  <img class="reviews__author-image" src="img/review/borodach-m.jpg" width="50" height="50" alt="Фото Трэвиса Баркера">
                 </picture>
               </div>
             <div class="reviews__author-info">
