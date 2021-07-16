@@ -303,7 +303,7 @@ a {
   top: 7px;
   width: 18px;
   height: 14px;
-  background-image: url("../../img/svg/Vector.svg");
+  background-image: url("../img/svg/Vector.svg");
   background-repeat: no-repeat;
 }
 @media (min-width: 768px) {
@@ -1993,7 +1993,7 @@ a {
     height: 280px;
     right: 0;
     top: 20px;
-    background-image: url("../../img/svg/1.svg");
+    background-image: url("../img/svg/1.svg");
     background-repeat: no-repeat;
     z-index: -1;
   }
@@ -2007,7 +2007,7 @@ a {
     height: 280px;
     right: 0;
     top: 20px;
-    background-image: url("../../img/svg/2.svg");
+    background-image: url("../img/svg/2.svg");
     background-repeat: no-repeat;
     z-index: -1;
   }
@@ -2021,7 +2021,7 @@ a {
     height: 280px;
     right: 0;
     top: 20px;
-    background-image: url("../../img/svg/3.svg");
+    background-image: url("../img/svg/3.svg");
     background-repeat: no-repeat;
     z-index: -1;
   }
@@ -2035,7 +2035,7 @@ a {
     height: 280px;
     right: 0;
     top: 20px;
-    background-image: url("../../img/svg/4.svg");
+    background-image: url("../img/svg/4.svg");
     background-repeat: no-repeat;
     z-index: -1;
   }
